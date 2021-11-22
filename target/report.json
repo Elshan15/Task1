@@ -1,0 +1,130 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-22T01:11:39.591Z",
+        "line": 5,
+        "name": "Create a New User",
+        "description": "",
+        "id": "new-user-registration;create-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27079206500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on MoneyGaming home page",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_am_on_money_gaming_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31393776100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I try sign up for new account",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_try_sign_up_for_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305712400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill up sing up information",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_fill_up_sing_up_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "Mr"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "surname",
+                  "Walker"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94832900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I check the tickbox with text \u0027I accept the Terms and Conditions and certify that I am over the age of 18",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_check_the_tickbox_with_text_i_accept_the_terms_and_conditions_and_certify_that_i_am_over_the_age_of_18()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74822700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the form by clicking the JOIN NOW button",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_submit_the_form_by_clicking_the_join_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38934600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I see ‘This field is required’ appears under the date of birth box",
+            "match": {
+              "location": "step_defs.StepDefinitionsRegistration.i_see_this_field_is_required_appears_under_the_date_of_birth_box()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signUpTest"
+          }
+        ]
+      }
+    ],
+    "name": "New user registration",
+    "description": "",
+    "id": "new-user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/RegistrationMoneyGaming.feature",
+    "tags": [
+      {
+        "name": "@signUpTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
