@@ -21,6 +21,7 @@ public class MoneyGamingHomePage {
     @FindBy(id = "title")
     WebElement title;
 
+
     public void clickJoinNowButton() {
 
         joinNowButton.click();

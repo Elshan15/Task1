@@ -37,7 +37,6 @@ public class MoneyGameRegistrPage {
     @FindBy(xpath = "//input[@id='form']")
     WebElement joinNowFinalButton;
 
-
     public void fillUpRegForm(String title, String firstName, String surname) {
         Select select = new Select(titlePerson);
         select.selectByValue(title);
