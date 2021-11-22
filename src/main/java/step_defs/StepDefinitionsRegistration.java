@@ -14,13 +14,12 @@ import java.util.Map;
 
 
 public class StepDefinitionsRegistration {
-    WebDriver driver=Driver.getDriver();
+    WebDriver driver = Driver.getDriver();
     MoneyGameRegistrPage moneyGameRegistrPage = new MoneyGameRegistrPage(driver);
     MoneyGamingHomePage moneyGamingHomePage = new MoneyGamingHomePage(driver);
 
     @Given("I am on MoneyGaming home page")
     public void i_am_on_money_gaming_home_page() {
-        driver = Driver.getDriver();
         driver.get("https://moneygaming.qa.gameaccount.com/");
     }
 
