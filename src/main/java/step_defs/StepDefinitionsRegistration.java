@@ -57,7 +57,7 @@ public class StepDefinitionsRegistration {
     @Then("I see ‘This field is required’ appears under the date of birth box")
     public void i_see_this_field_is_required_appears_under_the_date_of_birth_box() {
         moneyGameRegistrPage.verifyDOBErrorMSG();
-//       ### 1
+        System.out.println("1");
 
     }
 
