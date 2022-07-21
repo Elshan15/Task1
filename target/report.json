@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-22T06:08:47.400Z",
+        "start_timestamp": "2022-02-19T23:15:41.659Z",
         "line": 5,
         "name": "Create a New User",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25685095000,
+              "duration": 62058205000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 21491055000,
+              "duration": 23798835000,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 323379200,
+              "duration": 686309500,
               "status": "passed"
             },
             "line": 8,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 95805100,
+              "duration": 205795800,
               "status": "passed"
             },
             "line": 12,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 89857400,
+              "duration": 190558000,
               "status": "passed"
             },
             "line": 13,
@@ -93,7 +93,7 @@
           },
           {
             "result": {
-              "duration": 41385000,
+              "duration": 64388700,
               "status": "passed"
             },
             "line": 14,
